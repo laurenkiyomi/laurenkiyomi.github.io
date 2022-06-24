@@ -39,7 +39,6 @@ export default function ProductDetail({ handleAddItemToCart, handleRemoveItemFro
     return (
         <div className="product-detail">
             <Hero />
-            <SubNavBar setSearch={setSearch} setCategory={setCategory} search={search} />
             {spinner ? notFound ? <NotFound/> : <ProductView 
                 product={product}
                 productId={productId}
