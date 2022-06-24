@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&family=Inter:wght@300;800&family=Rubik:wght@300&display=swap');
+
+.product-grid {
+    width: 85%;
+    display: grid;
+    background-color: white;
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 10%));
+    justify-content: space-around;
+}
+
+.product-card {
+    max-width: 100%;
+    height: auto;
+    align-self: top;
+    filter: drop-shadow(2px 0px 4px #e76f51);  
+}
+
+.media {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+    align-self: top;
+    filter: opacity(90%)
+}
+
+.product-card-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    min-height: 100px;
+    background-color: #f4a261;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.product-name {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: #264653;
+}
+
+.product-price {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-top: 1px;
+    color: #264653;
+}
+
+.product-description {
+    margin-bottom: -10px;
+    background-color: #f4a261;
+    padding-left: 10px; 
+    padding-right: 15px; 
+    color: #264653;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+    width: 100%;
+
+}
+
+.quantity-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    background-color: #f4a261;
+    padding: 10px;
+}
+
+.remove {
+    margin: 4px;
+    border:2px solid #fefae0;
+    border-radius: 5px;
+    background-color: transparent;
+    color:  #fefae0;
+    font-weight: bold;
+    font-size: 1.2vw;
+    height: 30px;
+    width: 30px;
+}
+
+.product-quantity {
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: normal;
+    color: #264653;
+}
+
+.add {
+    margin: 10px;
+    border:2px solid #fefae0;
+    border-radius: 5px;
+    background-color: transparent;;
+    color:  #fefae0;
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+/*Product Detail*/
+.product-detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.product-view {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 600px;
+}
+
+.product-id {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #264653;
+}
+
+.product-view .product-card .media {
+    height: auto;
+}
+
+.product-view .product-card .media img {
+    width: 600px;
+    height: auto;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #264653;
+    min-height: 500px;
+}
+
+.no-products-message {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e76f51;
+    margin-top: 15px;
+}
+
+

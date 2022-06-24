@@ -1,0 +1,61 @@
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 30px;
+}
+
+.checkout-form-input {
+    border: 1px solid #264653;
+    background-color: #fefae0;
+    border-radius: 5px;
+    margin-top: 10px; 
+    width: 70%;
+    color: #264653;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 10px;
+
+}
+
+.checkout-button {
+    margin-top: 10px;
+    width: 40%;
+    border: 1px solid #fefae0;
+    border-radius: 5px;
+    background-color: #264653;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #fefae0;
+}
+
+.success, .error {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #fefae0;
+    margin-top: 10px;
+}
+
+.receipt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #264653;
+}
+
+.receipt-title {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: center;
+}
+
+.receipt-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.receipt-item {
+    display: flex;
+}
