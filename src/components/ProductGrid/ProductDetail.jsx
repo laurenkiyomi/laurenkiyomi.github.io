@@ -2,7 +2,6 @@ import * as React from "react"
 import { Routes, Route, Link, useParams } from 'react-router-dom'
 import axios from 'axios';
 import "../App/App.css"
-import * as ReactBootStrap from 'react-bootstrap'
 import ProductView from "./ProductView";
 import Hero from "../Home/Hero";
 import SubNavBar from "../Home/SubNavBar";
@@ -56,7 +55,6 @@ export function LoadingScreen(props) {
     return (
         <div className="loading-container">
             <h1 className="loading">Loading...</h1>
-            <ReactBootStrap.Spinner animation="border"/>
         </div>
     )
 }
